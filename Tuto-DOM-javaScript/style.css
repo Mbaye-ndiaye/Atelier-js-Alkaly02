@@ -23,7 +23,7 @@ p{
     opacity: 0;
     transform: translateX(-200px);
 }
-/* .question-clicked{
+.question-clicked{
     background: rgb(47,47,47);
     border-radius: 30px;
     border: 6px dashed pink;
@@ -50,10 +50,30 @@ nav{
     height: 50px;
     top: -50px;
 }
+nav::after{
+ content: "";
+ height: 150px;
+ width: 150px;
+ background: radial-gradient(
+    circle closest-side,
+    rgba(255, 255, 255, 0.94),
+    transparent
+ ); 
+ position: absolute;
+ transform: translate(-50%, -50%);  
+ transition: 0.25s;
+ z-index: 20;
+ opacity: 0;
+ left: var(--x);
+ top: var(--y)
+}
+nav:hover::after{
+    opacity: 1;
+}
 ul{
     display: flex;
     align-content: center;
     justify-content: space-around;
     padding: 0;
     
-} */
+} 
