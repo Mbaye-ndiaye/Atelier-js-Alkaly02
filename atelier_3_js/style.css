@@ -1,0 +1,12 @@
+.click-event{
+    width: 240px;
+    height: 240px;
+    background-color: aqua;
+    transition: all 1s ease;
+    
+}
+.border{
+    border-radius: 150px;
+    /* transform: translate(150%); */
+
+}

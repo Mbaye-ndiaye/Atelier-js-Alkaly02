@@ -23,7 +23,7 @@ p{
     opacity: 0;
     transform: translateX(-200px);
 }
-.question-clicked{
+/* .question-clicked{
     background: rgb(47,47,47);
     border-radius: 30px;
     border: 6px dashed pink;
@@ -56,4 +56,4 @@ ul{
     justify-content: space-around;
     padding: 0;
     
-}
+} */

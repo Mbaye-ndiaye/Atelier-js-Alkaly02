@@ -1,9 +1,15 @@
 // SELECTEUR
-// document.querySelector('h4').style.background="red";
+document.querySelector('h4').style.background="red";
 
 // Click event
-const questionContainer = document.querySelector(".click-event");
-const btn1 = document.querySelector("#btn-1");
+const questionContainer = document.querySelector(
+    ".click-even");
+questionContainer.addEventListener('click', () => {
+    console.log("Click !");
+})
+
+
+/*const btn1 = document.querySelector("#btn-1");
 const btn2 = document.getElementById("btn-2");
 const response = document.querySelector("p");
 
@@ -93,7 +99,23 @@ window.addEventListener("scroll", () => {
 //=================================form Events==========================================
 
 const inputName = document.querySelector('input[type="text"]');
+const select = document.querySelector("select");
+const form = document.querySelector('form')
 let pseudo = "";
+let langage = "";
 inputName.addEventListener("input", (e) => {
     pseudo = e.target.value;
+});
+
+select.addEventListener("submit", (e) => {
+    e.preventDefault();
+    
+    console.log(cgv.checked);
+    if (Cgv.checked) {
+        //Afficher le contenu des variables
+    } else {
+        alert("Veuillez accepter les CGV")
+    }
 })
+
+*/
