@@ -14,55 +14,56 @@ btn1.style.background = "blue"
     questionContainer.classList.remove('btn1')
 });
 //------------------PARTIE BTN2--------------------------------
-const mouvein = document.querySelector('.click-event');
+// const mouvein = document.querySelector('.click-event');
 const btn2 = document.querySelector('#btn-2')
 btn2.addEventListener('mouseover', () => {
     // ajouter une couleur 
-    mouvein.style.background = 'blue';
+    btn2.style.background = 'yelloe';
     // ajouter une class
-    mouvein.classList.add('btn2')
+    questionContainer.classList.add('btn2')
 });
 btn2.addEventListener('mouseout', () => {
-    mouvein.style.background = 'blue';
-    mouvein.classList.remove('btn2')
+    btn2.style.background = 'yellow';
+    questionContainer.classList.remove('btn2')
 });
 //--------------------PARTIE BTN3-----------------------------------------
-const mouve = document.querySelector('.click-event');
+// const mouve = document.querySelector('.click-event');
 const btn3 = document.getElementById('btn-3')
 btn3.addEventListener('mousemove', () => {
-    mouve.style.background = 'red'
-    mouve.classList.add('btn3')
+    btn3.style.background = 'red'
+    questionContainer.style.background = 'red'
+    questionContainer.classList.add('btn3')
 });
 btn3.addEventListener('mouseleave', () => {
-    mouve.style.background = 'red'
-    mouve.classList.remove('btn3')
+    btn3.style.background = 'red'
+    questionContainer.classList.remove('btn3')
 });
 
 //-----------------------PARTIE BTN4-----------------------------------------------------
-const mouve2 = document.querySelector('.click-event');
+// const mouve2 = document.querySelector('.click-event');
 const btn4 = document.querySelector('#btn-4');
 btn4.addEventListener('mouseover', () => {
-    mouve.style.background = 'pink'
-    mouve2.classList.add('btn4');
+    btn4.style.background = 'pink'
+    questionContainer.classList.add('btn4');
 });
 btn4.addEventListener('mouseout', () => {
-    mouve.style.background = 'pink'
-    mouve2.classList.remove('btn4')
+    btn4.style.background = 'pink'
+    questionContainer.classList.remove('btn4')
 });
 
-const container = document.querySelector('.click-event');
+// const container = document.querySelector('.click-event');
 const btn5 = document.querySelector('#btn-5');
 btn5.addEventListener('mouseover', () => {
     //Ajouter une couleur
-    container.style.background = 'green';
-    container.classList.add('btn5')
+    btn5.style.background = 'green';
+    questionContainer.classList.add('btn5')
 });
 
 btn5.addEventListener('mouseout', () => {
      //Ajouter une couleur
-     container.style.background = 'green';
+    //  container.style.background = 'green';
      btn5.style.hover = 'green';
-    container.classList.remove('btn5')
+     questionContainer.classList.remove('btn5')
 });
 
 

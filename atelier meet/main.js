@@ -9,15 +9,14 @@
 // // lists.appendChild(liNode)
 
 // // console.log(liNode);
+// le regle du DOM
+ //<li>Atelier meet</li>
+ //CREER <li></li> : document.createElement("li")
 
-// /**
-//  * <li>Atelier meet</li>
-//  * ! CREER <li></li> : document.createElement("li")
-//  * 
-//  * ! CREER LE TEXT A INSERER DANS <li></li> : document.createTextNode("Atelier meet");
-//  * 
-//  * ! AJOUTER(append) LE TEXT DANS LE NODE <li></li> 
-//  */
+ //CREER LE TEXT A INSERER DANS <li></li> : document.createTextNode("Atelier meet");
+ 
+ //AJOUTER(append) LE TEXT DANS LE NODE <li></li> 
+
 
 
 // // node.appendChild(textnode);
@@ -44,34 +43,27 @@
 
 
 
-// const main = document.getElementById('class');
+ const main = document.getElementById('class');
 
-// function afficher(codes, nom) {
+ function afficher(codes, nom) {
 
-//     const code = document.createElement(codes)
+     const code = document.createElement(codes)
 
-//     const textCode =  document.createTextNode(nom)
+     const textCode =  document.createTextNode(nom)
 
-//     code.append(textCode);
+     code.append(textCode);
 
-//     main.append(code)
-// }
+     main.append(code)
+ }
 
-// afficher('p', "On fait Un meet");
-// afficher('div', "On fait Un meet");
-// afficher('section', "On fait Un meet");
-// afficher('li', "On fait Un meet");
+ afficher('p', "On fait Un meet");
+ afficher('div', "On fait Un meet");
+ afficher('section', "On fait Un meet");
+ afficher('li', "On fait Un meet");
 
 
 
-const main = document.getElementById('class');
-function inser (codes, text) {
-    const code = document.createElement(codes);
-    const textCode = document.createTextNode(text);
 
-    elem.append(textCode);
-    main.append(code)
-}
 
 
 
