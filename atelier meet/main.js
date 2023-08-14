@@ -86,7 +86,7 @@
 
 
   let balise = prompt("Saisir un div");
-  let a = ['div', 'a', 'p', 'li', 'span'];
+  let a = ['div', 'a', 'p', 'li', 'span', 'section', 'ol', 'ul', 'input', 'label'];
   
   if (a.includes(balise)){
 
