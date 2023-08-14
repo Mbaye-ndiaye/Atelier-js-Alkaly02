@@ -39,7 +39,7 @@
 
 /* -----------------------PARTIE 3------------------------------------------ */
 .btn3{
-    border-radius: 400px;
+    border-radius: 50px;
     transform: translateX(200%);
     transition: all 1s ease
 

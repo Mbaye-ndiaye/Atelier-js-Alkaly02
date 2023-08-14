@@ -43,33 +43,60 @@
 
 
 
-  const main = document.getElementById('class');
+//    const main = document.getElementById('class');
 
-  function afficher(codes, nom) {
+//    function afficher(codes, nom) {
 
-      const code = document.createElement(codes)
+//        const code = document.createElement(codes)
 
-      const textCode =  document.createTextNode(nom)
+//        const textCode =  document.createTextNode(nom)
 
-      code.append(textCode);
+//        code.append(textCode);
 
-      main.append(code)
-  }
+//        main.append(code)
+//    }
 
 
 
  
-afficher('p', "On fait Un meet");
-afficher('div', "On fait Un meet");
-  afficher('section', "On fait Un meet");
-  afficher('li', "On fait Un meet");
+//  afficher('p', "On fait Un meet");
+//  afficher('div', "On fait Un meet");
+//    afficher('section', "On fait Un meet");
+//    afficher('li, "On fait Un meet')
+
+// Demande a l'utilisateur de saisir une balise et un text
+
+  // const div = document.getElementById('class')
+
+  // function element (balise, text) {
+
+   
+  //       const code = document.createElement(balise);
+
+  //       const textBalise = document.createTextNode(text);
+
+  //       code.append(textBalise);
+
+  //       document.getElementById("class").append(code)
+
+  //       main.append(code);
+      
+  
+  // }
 
 
+  let balise = prompt("Saisir un div");
+  let a = ['div', 'a', 'p', 'li', 'span'];
+  
+  if (a.includes(balise)){
 
+  alert('ceci : '+'<{balise}> '+' est une balise Html')
 
+  }else {
 
-
-
+  alert('ceci n\'exite pas')
+}
+ 
 
 
 
