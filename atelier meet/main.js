@@ -10,13 +10,13 @@
 
 // // console.log(liNode);
 // le regle du DOM
- //<li>Atelier meet</li>
- //CREER <li></li> : document.createElement("li")
+ /* <li>Atelier meet</li>
+ *CREER <li></li> : document.createElement("li")
 
- //CREER LE TEXT A INSERER DANS <li></li> : document.createTextNode("Atelier meet");
+ *CREER LE TEXT A INSERER DANS <li></li> : document.createTextNode("Atelier meet");
  
- //AJOUTER(append) LE TEXT DANS LE NODE <li></li> 
-
+ AJOUTER(append) LE TEXT DANS LE NODE <li></li> 
+*/
 
 
 // // node.appendChild(textnode);
@@ -66,36 +66,23 @@
 
 // Demande a l'utilisateur de saisir une balise et un text
 
-  // const div = document.getElementById('class')
 
-  // function element (balise, text) {
 
-   
-  //       const code = document.createElement(balise);
-
-  //       const textBalise = document.createTextNode(text);
-
-  //       code.append(textBalise);
-
-  //       document.getElementById("class").append(code)
-
-  //       main.append(code);
-      
+    let balise = prompt("Saisir un div");
+    let text = prompt('Saisir un text')
+    let a = ['div', 'a', 'p', 'li', 'span', 'section', 'ol', 'ul', 'input', 'label', 'cite',
+            'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'img', 'figure', 'p', 'progress', 
+            'time', 'address', 'br', 'source', 'ul', 'ol', 'li', 'dl', 'dd', 'table', 'tr', 'td', 'th', 'nav', 'section', 'article', 'aside' ];
   
-  // }
+   if (a.includes(balise)){
 
+   alert(  text)
+   text.style.color = red
 
-  let balise = prompt("Saisir un div");
-  let a = ['div', 'a', 'p', 'li', 'span', 'section', 'ol', 'ul', 'input', 'label'];
-  
-  if (a.includes(balise)){
+   }else {
 
-  alert('ceci : '+'<{balise}> '+' est une balise Html')
-
-  }else {
-
-  alert('ceci n\'exite pas')
-}
+   alert('merci de saisir une balise html !')
+ }
  
 
 
