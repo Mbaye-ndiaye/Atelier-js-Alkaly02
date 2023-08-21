@@ -3,13 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-
-}
-
-
-
-
 
 #titre{
    display: flex; 
@@ -20,17 +13,15 @@ body {
 }
 nav div{
     display: inline-block;
-    
     /* border: 1px solid white;  */
-    color: white;
-    
+    color: white; 
 }
 
-/* nav{
+ nav{
   border: 1ps solid black; 
   border-radius: 4px ;
   background: linear-gradient(#035DCA, #042e5d);
-} */
+} 
 
 /* ----------Calculatrice--------- */
 .calculatrice{
@@ -80,7 +71,6 @@ input{
 }
 #recu{
     margin-left: 10px;
-   
 }
 
 a{
@@ -156,9 +146,9 @@ span{
    align-items: center;
    color: gray;
 }
-/* .bouton{
+ .bouton{
     padding: 18px ;
    color: grey;
-} */
+} 
 
 
