@@ -104,6 +104,8 @@ span{
     cursor: pointer;
     border: none;
 }  
+
+
 .button{
     background: white;
     border-radius: 5px;
@@ -112,6 +114,10 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     
+}
+.button:active{
+    box-shadow: #F9EB4A;
+    transform: translateY(5%)
 }
 .bleu{
     background: RGB(74, 140, 250);

@@ -63,9 +63,16 @@ function supprime() {
     afficheBas = "";
 }
 
- function resultat(){
+function egal(nombre) {
+    
+}
+ function resultat(nombre){
     // console.log(afficheBas);
       ecran.value = eval(afficheBas)
+      resultat.addEventlistener('click', () =>{
+        ecran.value += nombre
+        // afficheBas += calcul;
+       })
  }
 
  
@@ -121,36 +128,5 @@ function supprime() {
 
 
 
-// document.addEventListener('keydown', (ecran) => {
-//      touches.innerHtml = ecran;
-//  })
-
-// document.addEventListener('click', (e) => {
-//      const valeur = e.target.dataset.key;
-//      calculer(valeur);
-    
-//  })
-
-//  const calculer = (valeur) => {
-//      if (isteKeycodel.includes(valeur)) {
-        
-//           switch (valeur) {
-          
-//               case '103':
-//                   ecran.textContent = "";
-//                   break;
-
-//               case '101':
-
-//                   const calcul = eval(ecran.textContent);
-//                   ecran.textContent = calcul;
-//                   break;
-//               default:
-//               const indexKeycode = listeKeycode.indexOf(valeur);
-//               const touche = touches[indexKeycode];
-//               ecran.textContent += touche.innerHtml;
-//           }
-//      }
-//  }
 
 
