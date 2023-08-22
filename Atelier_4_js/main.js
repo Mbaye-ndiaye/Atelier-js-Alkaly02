@@ -24,7 +24,7 @@ function additionner (calcul){
     // afficher 2 em input
     inputFinal.value = valeurFinal
     
-    // ecran.value = eval(ecran.value) 
+     //ecran.value = eval(ecran.value) 
 
     // valeurFinal += calcul
     // inputFinal = eval(afficheBas)
@@ -57,15 +57,6 @@ function multiplier(calcul) {
     
 }
 
-function supprime() {
-    valeurFinal.value = '';
-    ecran.value = '';
-    afficheBas = "";
-}
-
-function egal(nombre) {
-    
-}
  function resultat(nombre){
     // console.log(afficheBas);
       ecran.value = eval(afficheBas)
@@ -76,6 +67,119 @@ function egal(nombre) {
  }
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
