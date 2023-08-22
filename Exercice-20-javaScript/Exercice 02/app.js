@@ -3,4 +3,5 @@ let note_francais = 9;
 let note_hg = 16;
 // Calculer la moyenne
 let moyenne = (note_maths + note_francais + note_hg) / 3;
-alert('La moyenne est de :' + moyenne)
+
+alert(`la moyenne est de : ${moyenne}`)

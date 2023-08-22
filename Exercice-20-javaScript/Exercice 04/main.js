@@ -1,5 +1,7 @@
 let prixHt = prompt('Entrez un montant')
-let tva = 20 / 100;
 
-let totalSomme = prixHt * tva;
-document.body.innerHtml = totalSomme;
+
+let prixTtc = prixHt * 20 / 100 
+
+
+document.body.innerText = prixTtc;

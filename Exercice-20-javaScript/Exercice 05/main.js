@@ -1,6 +1,6 @@
  let prixHt = prompt('Entrez un montant HT');
  let tauxTva = prompt('Entrez la Tva'); 
- let tva = 0.2;
+ 
 
- let prixTtc = prixHt * tauxTva;
+ let prixTtc = prixHt * 0.2;
  document.body.innerText = prixTtc;

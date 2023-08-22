@@ -1,5 +1,5 @@
- let budget = 4000;
- let achats = 3950;
+ let budget = 800;
+ let achats = 1000;
 
  if (budget >= achats) {
    alert('votre budget vous permet de payer les achats'  );
