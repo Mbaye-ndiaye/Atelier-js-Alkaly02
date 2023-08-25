@@ -12,7 +12,7 @@ let afficheBas = 0;
 
 // afficher les choffres sur l'ecran
 function nombres(nombre){
-    afficheBas += nombre
+     afficheBas += nombre
     ecran.value += nombre
     valeurFinal = nombre    
 }
