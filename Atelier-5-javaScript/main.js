@@ -40,7 +40,7 @@ console.log(a);
 
 var a = 9;
 
-// unitialiser variables
+//------------------- unitialiser variables-----------------------------
 //  Initialiser these three variables 
 
 var a = 5; 
@@ -59,7 +59,7 @@ c =  c + "string";
 
 // case sensitivity in variables
 
-// Decalaration
+//------------- Decalaration----------------------------
 
 var studlyCapVar;
 
@@ -67,7 +67,7 @@ var properCamelCase;
 
 var titlCasOver;
 
-// S+Assignments
+// --------------------S+Assignments----------------
 
 studlyCapVar = 10;
 
@@ -75,21 +75,21 @@ properCamelCase ="A string";
 
 titlCasOver = 9000;
 
-// Adding Numbers
+// ---------------Adding Numbers-----------------------
 
 var sum = 10 + 10;
 
 console.log(sum);
 
-//  soustraction Number
+// -------------- soustraction Number---------------------
 
 var difference = 45 - 33;
 
-// Multipling Numbers
+//----------- Multipling Numbers----------------
 
 var product = 8 * 0;
 
-//  Dividing Numbers
+//-------------------  Dividing Numbers------------------
 
 var quotient = 66 / 33;
 
