@@ -9,6 +9,7 @@ let closeBtn = document.getElementById('close-btn');
 // event listeners
 
 openBtn.addEventListener('click', function() {
+    // console.log(modalContainer.style);
 
     modalContainer.style.display = 'block';
 })
