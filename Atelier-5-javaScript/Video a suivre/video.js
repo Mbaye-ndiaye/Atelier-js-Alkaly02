@@ -34,20 +34,20 @@
 
 //------------------------- style element---------------------------------------------
 
-// const title = document.querySelector('#main-heading');
+//  const title = document.querySelector('#main-heading');
 
-// title.style.color = 'red';
-
-
-// const listItems = document.querySelectorAll('list-items');
-
-// for (i = 0; i < listItems.length; i++){
+//  title.style.color = 'red';
 
 
-//     listItems[i].style.fontSize = '5em';
-// }
+//  const listItems = document.querySelectorAll('.list-items');
 
-// console.log(listItems);
+//  for (i = 0; i < listItems.length; i++){
+
+
+    //  listItems[i].style.fontSize = '2rem';
+//  }
+
+//  console.log(listItems);
 
 
 // creating elements 
