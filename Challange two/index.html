@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange Frontend Mentor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="titre">
+            <h1>SPLI<br>TTER</h1>
+            <div class="parent">
+                <div>
+                <div class="block">
+                     <label for="text" >
+                        Bill
+                     </label> 
+                    <input type="text" class="form-control" id="myDollar" placeholder="$">
+                    <small></small>
+                </div>
+                <h2>Select Tip %</h2>
+                <div class="bouton">
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">5%</button>
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">10%</button>
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">15%</button>
+                    
+                </div>
+                <div class="bouton">
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">25</button>
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">40%</button>
+                    <button class="bouton1" id="myBouton" onclick="calculSomme()">50%</button>
+                </div>
+                <div class="block">
+                    <label for="text">
+                        Number of People
+                    </label>
+                    <input type="text" id="person" placeholder="0" placeholder="4">
+                    <small></small>
+                </div>
+                </div>
+                <div class="part2">
+                    <div class="droit">
+                    <p id=""><span>Tip Amount</span> <br>/ person</p>
+                    <p id="text">$0.00</p>
+                </div>
+                <div class="gauche">
+                    <p id=""><span>total</span> <br>/ person</p>
+                    <p id="total">$0.00</p>
+                </div>
+
+                <div class="btn">
+                    <button type="reset" id="reset_btn" onclick="effacerInput()">RESET</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
