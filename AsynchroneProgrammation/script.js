@@ -20,50 +20,50 @@
 
 
 // DIVISION
- const division = (a, b ) => {
-     return new Promise ((resole, reject) => {
+  const division = (a, b ) => {
+      return new Promise ((resole, reject) => {
 
-         if(b !== 0){
-             resole(a +' / ' + b + ' = ' + a / b)
-         }
+          if(b !== 0){
+              resole(a +' / ' + b + ' = ' + a / b)
+          }
 
-         reject('b doit different a zero')
-     })
- }
- division(20, 2)
- .then(res => {
-     console.log(res)
- })
- .catch(err => {
-     console.log(err);
- })
+          reject('b doit different a zero')
+      })
+  }
+  division(20, 2)
+  .then(res => {
+      console.log(res)
+  })
+  .catch(err => {
+      console.log(err);
+  })
 
- MULTIPLICATION
-let a = Number(prompt('enter a'))
-  let b = Number(prompt('enter b'))
- const multiplication = (a , b ) => {
-     return new Promise ((valid, reject) => {
-         let egal = a * b
-         if (b == 0 ){
+  MULTIPLICATION
+ let a = Number(prompt('enter a'))
+   let b = Number(prompt('enter b'))
+  const multiplication = (a , b ) => {
+      return new Promise ((valid, reject) => {
+          let egal = a * b
+          if (b == 0 ){
 
             
             
-             return reject('b doit difference a zero')
+              return reject('b doit difference a zero')
 
-         }
+          }
 
-         valid(`voici le resultat : ${egal}`)
-     })
- }
- multiplication(a, b)
- .then(res => {
-     console.log(res);
- })
- .catch(err => {
-     console.log(err);
- })
+          valid(`voici le resultat : ${egal}`)
+      })
+  }
+  multiplication(a, b)
+  .then(res => {
+      console.log(res);
+  })
+  .catch(err => {
+      console.log(err);
+  })
 
- SOUSTRACTION
+ //SOUSTRACTION
   let a = Number(prompt('enter a'))
   let b = Number(prompt('enter b'))
   const soustraction = (a , b ) => {
@@ -91,54 +91,54 @@ let a = Number(prompt('enter a'))
 
 
  // ADDITION
-let a = Number(prompt('enter a'))
-let b = Number(prompt('enter b'))
-  const addition = (a , b ) => {
-     return new Promise ((valid, reject) => {
-         let somme = a + b
-         if (somme <= 1 ){
+ let a = Number(prompt('enter a'))
+ let b = Number(prompt('enter b'))
+   const addition = (a , b ) => {
+      return new Promise ((valid, reject) => {
+          let somme = a + b
+          if (somme <= 1 ){
 
             
             
-             return reject('somme doit depasser a 1')
+              return reject('somme doit depasser a 1')
 
-         }
+          }
 
-         valid(`voici le resultat : ${somme}`)
-     })
- }
- addition(a, b).then(res => {
-     console.log(res);
- })
- .catch(err => {
-     console.log(err);
- })
+          valid(`voici le resultat : ${somme}`)
+      })
+  }
+  addition(a, b).then(res => {
+      console.log(res);
+  })
+  .catch(err => {
+      console.log(err);
+  })
 
 
 
 // MODULO
-let a = Number(prompt('enter a'))
-let b = Number(prompt('enter b'))
-  const modulo = (a , b ) => {
-     return new Promise ((valid, reject) => {
-         let somme = a % b
-         if (somme <= 1 ){
+ let a = Number(prompt('enter a'))
+ let b = Number(prompt('enter b'))
+   const modulo = (a , b ) => {
+      return new Promise ((valid, reject) => {
+          let somme = a % b
+          if (somme <= 1 ){
 
             
             
-             return reject('somme doit depasser a 1')
+              return reject('somme doit depasser a 1')
 
-         }
+          }
 
-         valid(`voici le resultat : ${somme}`)
-     })
- }
- addition(a, b).then(res => {
-     console.log(res);
- })
- .catch(err => {
-     console.log(err);
- })
+          valid(`voici le resultat : ${somme}`)
+      })
+  }
+  addition(a, b).then(res => {
+      console.log(res);
+  })
+  .catch(err => {
+      console.log(err);
+  })
 
 
 
