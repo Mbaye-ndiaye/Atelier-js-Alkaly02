@@ -38,7 +38,7 @@
       console.log(err);
   })
 
-  MULTIPLICATION
+ // MULTIPLICATION
  let a = Number(prompt('enter a'))
    let b = Number(prompt('enter b'))
   const multiplication = (a , b ) => {
@@ -64,12 +64,12 @@
   })
 
  //SOUSTRACTION
-  let a = Number(prompt('enter a'))
-  let b = Number(prompt('enter b'))
-  const soustraction = (a , b ) => {
+  let number = Number(prompt('enter a'))
+  let numers = Number(prompt('enter b'))
+  const soustraction = (number , numers ) => {
       return new Promise ((valid, reject) => {
-          let differ = a - b
-          if (a < b  || a <= 0){
+          let differ = number - numers;
+          if (number < numers  || number <= numers){
 
             
             
@@ -80,7 +80,7 @@
           valid(`voici le resultat : ${differ}`)
       })
   }
-  soustraction(a, b).then(res => {
+  soustraction(number, numers).then(res => {
       console.log(res);
   })
   .catch(err => {
@@ -91,11 +91,11 @@
 
 
  // ADDITION
- let a = Number(prompt('enter a'))
- let b = Number(prompt('enter b'))
-   const addition = (a , b ) => {
+ let num = Number(prompt('enter a'))
+ let num2 = Number(prompt('enter b'))
+   const addition = (num , num2 ) => {
       return new Promise ((valid, reject) => {
-          let somme = a + b
+          let somme = num + num2
           if (somme <= 1 ){
 
             
@@ -107,7 +107,7 @@
           valid(`voici le resultat : ${somme}`)
       })
   }
-  addition(a, b).then(res => {
+  addition(num, num2).then(res => {
       console.log(res);
   })
   .catch(err => {
@@ -117,11 +117,11 @@
 
 
 // MODULO
- let a = Number(prompt('enter a'))
- let b = Number(prompt('enter b'))
-   const modulo = (a , b ) => {
+ let x = Number(prompt('enter a'))
+ let y = Number(prompt('enter b'))
+   const modulo = (x , y ) => {
       return new Promise ((valid, reject) => {
-          let somme = a % b
+          let somme = x % y
           if (somme <= 1 ){
 
             
@@ -133,7 +133,7 @@
           valid(`voici le resultat : ${somme}`)
       })
   }
-  addition(a, b).then(res => {
+  addition(x, y).then(res => {
       console.log(res);
   })
   .catch(err => {
