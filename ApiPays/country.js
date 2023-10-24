@@ -4,7 +4,8 @@ const affiche = document.getElementById('region')
 // const clikable = document.getElementById('click')
 const input = document.getElementById('myInput')
 const bouton = document.getElementById('dark')
-// console.log(bouton);
+const select = document.getElementById('countrie')
+console.log(select);
 
 // console.log(input)
 
@@ -13,11 +14,7 @@ fetch('https://restcountries.com/v3.1/all')
 .then(response => response.json())
 .then(r => {
     
-    //  console.log(r);
-    
-    
-         
-            
+     
         function afficheDesPays(r) {
             r.forEach(ville => {
                 const div = document.createElement('div')
@@ -35,8 +32,12 @@ fetch('https://restcountries.com/v3.1/all')
 
         bouton.addEventListener('click', function(){
             document.body.classList.toggle('color')
+            flex.style.background = 
+            
             bouton.classList.toggle('color')
         })
+
+       
             
         }
         afficheDesPays(r)
@@ -63,25 +64,38 @@ fetch('https://restcountries.com/v3.1/all')
 
                 }
             })
+
+           select.addEventListener('click', function(){
+            fetch(`https://restcountries.com/v3.1/name/region/${select.value}`)
            
+            .then(pays => pays.json())
+            .then(sele => {
+                
+                affiche.innerHTML = '';
+            
+    
+
+        afficheDesPays(sele)  
+                        
+           })
+
 
             
-            let pays = [];
-            console.log(r);
-            pays = r.filter(element => element.region=== 'Africa');
-            //  pays.push(r)
+            
+            
+            
            
-             console.log(pays);
+          
 
 
     
 
         }
 
-        
+           ) 
 
         
-    );
+});
 
-   
+
 
