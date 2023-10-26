@@ -153,23 +153,23 @@
 // Voici un exemple de code JavaScript pour vous montrer comment cela peut être fait :
 
 // javascript
-// Fonction pour créer un nouveau todo via l'API
-// async function createTodo(todo) {
-//   try {
-//     const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       },
-//       body: JSON.stringify({ todo })
-//     });
+//Fonction pour créer un nouveau todo via l'API
+async function createTodo(todo) {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ todo })
+    });
 
-//     if (response.ok) {
-//       console.log('Todo créé avec succès !');
-//     } else {
-//       console.log('Erreur lors de la création du todo.');
-//     }
-//   } catch (error) {
-//     console.log('Une erreur s\'est produite lors de la création du todo :', error);
-//   }
-// }
+    if (response.ok) {
+      console.log('Todo créé avec succès !');
+    } else {
+      console.log('Erreur lors de la création du todo.');
+    }
+  } catch (error) {
+    console.log('Une erreur s\'est produite lors de la création du todo :', error);
+  }
+}
